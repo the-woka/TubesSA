@@ -18,8 +18,8 @@ def cut_rod(price, n):
     return total_value, selected_cuts
 
 
-#example usage
-input_price = input("Masukkan harga (dipisahkan spasi): ")
+# example usage
+input_price = input("Masukkan harga (dipisah spasi): ")
 price = list(map(int, input_price.split()))
 rod_length = len(price)
 max_value, selected_cuts = cut_rod(price, rod_length)
